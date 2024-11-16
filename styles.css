@@ -1,0 +1,39 @@
+.bgimg{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.7);
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+}
+.carouselcontainer{
+    width: 75%;
+    margin: auto;
+    padding-top: 30px;
+    
+}
+    
+    .carousel-inner img{
+        margin: auto;
+    }
+.c-item{
+height: 450px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+.formcard{
+    width: 45%;
+}
+.gmapcard{
+    max-width: 45%;
+}
+.cardwrapper{
+    display: flex;
+}
+.gmaptitle{
+    padding-top: 15px;
+}
