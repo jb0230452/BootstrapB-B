@@ -5,8 +5,9 @@
     filter: brightness(0.7);
     position: absolute;
     z-index: -1;
-    top: 0px;
+   /* top: 0px;
     left: 0px;
+    */
 }
 .carouselcontainer{
     width: 75%;
@@ -25,15 +26,24 @@ height: 450px;
     height: 100%;
     object-fit: cover;
 }
+iframe{
+    width: 100%;
+}
+
+/*
 .formcard{
     width: 45%;
 }
 .gmapcard{
     max-width: 45%;
 }
-.cardwrapper{
+/*.cardwrapper{
     display: flex;
-}
+}*/
+
 .gmaptitle{
-    padding-top: 15px;
+    padding-bottom: 15px;
 }
+
+/*
+width="400" height="300" 
